@@ -24,11 +24,11 @@ case $choice in
 1)
     mkdir /root/hinaswifi
 
-    wget -nc -P /root/hinaswifi/ https://mirror.ghproxy.com/https://github.com/benbenhuo/hinaswifi/raw/main/hi_kernel-mv100-0808.bin
-    wget -nc -P /root/hinaswifi/ https://mirror.ghproxy.com/https://github.com/benbenhuo/hinaswifi/raw/main/wifi_install.sh
-    wget -nc -P /root/hinaswifi/ https://mirror.ghproxy.com/https://github.com/benbenhuo/hinaswifi/raw/main/hiwifi.md5sum
-    wget -nc -P /root/hinaswifi/ https://mirror.ghproxy.com/https://github.com/benbenhuo/hinaswifi/raw/main/rtl8188ftv-0808.tar.gz
-    wget -nc -P /root/hinaswifi/ https://mirror.ghproxy.com/https://github.com/benbenhuo/hinaswifi/raw/main/rtl8188etv-0808.tar.gz
+    wget -nc -P /root/hinaswifi/ https://ghfast.top/https://github.com/benbenhuo/hinaswifi/raw/main/hi_kernel-mv100-0808.bin
+    wget -nc -P /root/hinaswifi/ https://ghfast.top/https://github.com/benbenhuo/hinaswifi/raw/main/wifi_install.sh
+    wget -nc -P /root/hinaswifi/ https://ghfast.top/https://github.com/benbenhuo/hinaswifi/raw/main/hiwifi.md5sum
+    wget -nc -P /root/hinaswifi/ https://ghfast.top/https://github.com/benbenhuo/hinaswifi/raw/main/rtl8188ftv-0808.tar.gz
+    wget -nc -P /root/hinaswifi/ https://ghfast.top/https://github.com/benbenhuo/hinaswifi/raw/main/rtl8188etv-0808.tar.gz
     chmod 777 /root/hinaswifi/wifi_install.sh
 
     apt install kmod -y
